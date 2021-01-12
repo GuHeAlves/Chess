@@ -9,7 +9,6 @@ $(function () {
             for (var c = 0; c < columns.length; c++) {
 
                 var sq = columns[c] + l;
-                $('.board').append('<div class="square-board" id="' + sq + '"> ' + sq + ' </div>')
             }
         }
     }
