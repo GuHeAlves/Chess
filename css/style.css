@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background-color: white;
 }
 
-header{
+header {
     background-color: rgb(34, 29, 29);
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -15,7 +15,18 @@ header{
     display: flex;
 }
 
-h1{
-
+h1 {
     padding: 20px;
+}
+
+.box{
+    width: 842px;
+    background-color: black;
+    margin: 50px auto;
+}
+
+.board{
+    background-color: blue;
+    width: 520px;
+    height: 520px;
 }
